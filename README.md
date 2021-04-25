@@ -6,7 +6,7 @@
   <img align="center" src="https://img.shields.io/badge/heroku-tool-violet?style=flat" />
 </p>
 <h2  align="center">
-Data Insights for Anti-Drug Campaigns
+  <a href="https://data-insights-for-drugs.herokuapp.com/" target="_blank">Data Insights for Anti-Drug Campaigns</a>
 </h2>
 <h4  align="center">
 A visualization project for data on accidental drug-related deaths in the state of Connecticut for 2012 - 2018.
