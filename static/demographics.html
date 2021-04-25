@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Data Insights for Anti-Drug Campaigns - Demographics Analysis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="h1">Data Insights for Anti-Drug Campaigns - Demographics Analysis</h1>
+		<nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="sex-tab" data-bs-toggle="tab" data-bs-target="#sex-analysis" type="button" role="tab">Sex Analysis</button>
+              <button class="nav-link" id="drugs-tab" data-bs-toggle="tab" data-bs-target="#drugs-analysis" type="button" role="tab">Drugs Analysis</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+		<h4 class="h4">Based on Data on Accidental Drug-Related Deaths in Connecticut 2012 - 2018</h4>
+		<div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="sex-analysis">
+                <div>
+					<div class="iframe-message alert alert-info" role="alert">
+						You are probably going to need a wider screen for this visualization
+					</div>
+                    <iframe src="https://public.tableau.com/views/MostAccidentalDrug-RelatedDeathsbySex2014-2018/MostAccidentalDrug-RelatedDeathsbySex2014-2018?:embed=y&:language=en&:retry=yes&:display_count=y&:showVizHome=no"></iframe>
+					<div id="viz-description">
+						A basic analysis of the data by sex reveals that about <b>75%</b> of deaths affected the <u>Male</u> demographic compared to the Female demographic.
+						It also reveals that, generally, <u>Opioids</u> caused more deaths.
+						Hovering over the different bars in the visualization will reveal the exact number of deaths for a particular drug and demographic.
+					</div> 
+                </div>               
+            </div>
+            <div class="tab-pane fade" id="drugs-analysis">
+                <div class="accordion" id="drugs">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="dashboard-heading">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard">
+								Dashboard
+							</button>
+						</h2>
+						<div id="dashboard" class="accordion-collapse collapse show" data-bs-parent="#drugs">
+							<div class="accordion-body">
+								<div class="iframe-message alert alert-info" role="alert">
+									You are probably going to need a wider screen for this visualization
+								</div>
+								<iframe src="https://public.tableau.com/views/DrugsAnalysis2014-2018/DrugsDashboard?:embed=y&:language=en&:retry=yes&:display_count=y&:showVizHome=no"></iframe>
+								<div id="viz-description">
+									A visualization for showcasing the different drug visualizations collectively for comparative analysis.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="heroin-heading">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#heroin">
+						  Heroin
+						</button>
+					  </h2>
+					  <div id="heroin" class="accordion-collapse collapse" data-bs-parent="#drugs">
+						<div class="accordion-body">
+							<div class="iframe-message alert alert-info" role="alert">
+								You are probably going to need a wider screen for this visualization
+							</div>
+							<iframe src="https://public.tableau.com/views/DrugsAnalysis2014-2018/Heroin?:embed=y&:language=en&:retry=yes&:display_count=y&:showVizHome=no"></iframe>
+							<div id="viz-description">
+								This visualization is for accidental deaths caused by Heroin - an Opiod often used for pain relief.
+								Interacting with the filters can help reveal other relationships in these deaths based on locations, age, or race.
+							</div>
+						</div>
+					  </div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="any-opiod-heading">
+						  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#any-opiod">
+							AnyOpiod
+						  </button>
+						</h2>
+						<div id="any-opiod" class="accordion-collapse collapse" data-bs-parent="#drugs">
+						  <div class="accordion-body">
+							<div class="iframe-message alert alert-info" role="alert">
+								You are probably going to need a wider screen for this visualization
+							</div>
+							<iframe src="https://public.tableau.com/views/DrugsAnalysis2014-2018/AnyOpiod?:embed=y&:language=en&:retry=yes&:display_count=y&:showVizHome=no"></iframe>
+							<div id="viz-description">
+								This visualization is for accidental deaths caused by Opioids - a class of pain relievers.
+								Interacting with the filters can help reveal other relationships in these deaths based on locations, age, or race.
+							</div>
+						  </div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="benzodiazepine-heading">
+						  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#benzodiazepine">
+							Benzodiazepine
+						  </button>
+						</h2>
+						<div id="benzodiazepine" class="accordion-collapse collapse" data-bs-parent="#drugs">
+						  <div class="accordion-body">
+							<div class="iframe-message alert alert-info" role="alert">
+								You are probably going to need a wider screen for this visualization
+							</div>
+							<iframe src="https://public.tableau.com/views/DrugsAnalysis2014-2018/Benzodiazepine?:embed=y&:language=en&:retry=yes&:display_count=y&:showVizHome=no"></iframe>
+							<div id="viz-description">
+								This visualization is for accidental deaths caused by Benzodiazepines - a class of drugs often used to treat psychiatric conditions, anxiety, and
+								insomnia.
+								Interacting with the filters can help reveal other relationships in these deaths based on locations, age, or race.
+							</div>
+						  </div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="cocaine-heading">
+						  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cocaine">
+							Cocaine
+						  </button>
+						</h2>
+						<div id="cocaine" class="accordion-collapse collapse" data-bs-parent="#drugs">
+						  <div class="accordion-body">
+							<div class="iframe-message alert alert-info" role="alert">
+								You are probably going to need a wider screen for this visualization
+							</div>
+							<iframe src="https://public.tableau.com/views/DrugsAnalysis2014-2018/Cocaine?:embed=y&:language=en&:retry=yes&:display_count=y&:showVizHome=no"></iframe>
+							<div id="viz-description">
+								This visualization is for accidental deaths caused by Cocaine - a stimulant that can also cause the feeling of ‘an
+								absence of pain’.
+								Interacting with the filters can help reveal other relationships in these deaths based on locations, age, or race.
+							</div>
+						  </div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="fentanyl-heading">
+						  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#fentanyl">
+							Fentanyl
+						  </button>
+						</h2>
+						<div id="fentanyl" class="accordion-collapse collapse" data-bs-parent="#drugs">
+						  <div class="accordion-body">
+							<div class="iframe-message alert alert-info" role="alert">
+								You are probably going to need a wider screen for this visualization
+							</div>
+							<iframe src="https://public.tableau.com/views/DrugsAnalysis2014-2018/Fentanyl?:embed=y&:language=en&:retry=yes&:display_count=y&:showVizHome=no"></iframe>
+							<div id="viz-description">
+								This visualization is for accidental deaths caused by Fentanyl - an Opiod often used for pain relief.
+								Interacting with the filters can help reveal other relationships in these deaths based on locations, age, or race.
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>               
+            </div>
+        </div>
+				 
+    </main>
+    <footer class="h5">
+        <p>Note: The visualizations for this project are all publicly available from <a href="https://public.tableau.com/" target="_blank">Tableau Public</a>.</p>
+        <div>
+        <span>By Brenda Nyangweso & Saba Khalid</span>
+        <span>Image Credit: Photo by Johannes Plenio from Pexels</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+
+</html>
