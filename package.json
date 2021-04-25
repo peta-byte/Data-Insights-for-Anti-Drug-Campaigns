@@ -1,7 +1,7 @@
 {
   "name": "accidental-drug-related-deaths-in-connecticut-2012-2018",
   "version": "1.0.0",
-  "description": "A program for showcasing a visualization based on the Accidental Drug-Related Deaths in Connecticut dataset",
+  "description": "A program for showcasing visualizations based on the accidental drug-related deaths in Connecticut dataset",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
