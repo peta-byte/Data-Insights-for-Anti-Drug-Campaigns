@@ -14,7 +14,7 @@ A visualization project for data on accidental drug-related deaths in the state 
 <p>
 Data Source:
 <ul>
-<li><a href="https://catalog.data.gov/dataset/accidental-drug-related-deaths-2012-2018">Accidental Drug Related Deaths 2012-2018</a></li>
+<li><a href="https://catalog.data.gov/dataset/accidental-drug-related-deaths-2012-2018" target="_blank">Accidental Drug Related Deaths 2012-2018</a></li>
 </ul>
 </p>
 <p>
