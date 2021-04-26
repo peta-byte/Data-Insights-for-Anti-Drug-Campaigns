@@ -20,6 +20,14 @@ Data Source:
 <p>
 This app was created to facilitate the project's presentation. It consolidates the Tableau visualizations of the data in one place for easy access and interaction. It is live and deployed to Heroku.
 </p>
+<p>
+To run this app locally:
+<ul>
+<li>Ensure node & npm are installed</li>
+<li>Run <code>npm run start</code></li>
+<li>Navigate to <code>localhost:4000</code></li>
+</ul>
+</p>
 <br  />
 <p>
 Collaboratively by: Brenda & Saba
