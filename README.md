@@ -24,6 +24,7 @@ This app was created to facilitate the project's presentation. It consolidates t
 To run this app locally:
 <ul>
 <li>Ensure node & npm are installed</li>
+<li>Run <code>npm install</code></li>
 <li>Run <code>npm run start</code></li>
 <li>Navigate to <code>localhost:4000</code></li>
 </ul>
